@@ -1,0 +1,445 @@
+[
+    {
+        "id": "4d24a982.7bf068",
+        "type": "tab",
+        "label": "RPi Cam",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "b7ead9ac.8c3998",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "f15aaf51.f4429",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey"
+            }
+        },
+        "site": {
+            "name": "OpenScan v2 - 2019-09-06",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 6,
+                "py": 6
+            }
+        }
+    },
+    {
+        "id": "c19e2c9e.f4b99",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 8,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "75afd9cb.6a3ed8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e49ddca1.744a",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "987b4012.f9a07",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 5,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "caea0d6c.4e75",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3fadc6db.3997ea",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f5864201.8e5ff",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9c6a04ac.e760a8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "bb5bfba5.b3b7b8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 11,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "ffc3612c.3b02c",
+        "type": "ui_group",
+        "z": "",
+        "name": "Setup",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 8,
+        "collapse": false
+    },
+    {
+        "id": "ddd1a14a.d7351",
+        "type": "ui_group",
+        "z": "",
+        "name": "Group 1",
+        "tab": "",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "79b73861.bb6048",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 11,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "aa12c1f4.a677e",
+        "type": "ui_group",
+        "z": "",
+        "name": "RPi Control",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "1b24360b.f2e6da",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "ffc3612c.3b02c",
+        "order": 8,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "a2b83ddb.6a2ee",
+        "type": "ui_group",
+        "z": "",
+        "name": "Camera Settings",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "1ecaa9e9.4192e6",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e58f9de6.10904",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "924edf62.f208d",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "1303ee2a.fd44f2",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "64e3edec.4e1334",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "ddd1a14a.d7351",
+        "order": 4,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "3188db67.bbeca4",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "ddd1a14a.d7351",
+        "order": 7,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "1e8e0f75.323111",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "aa12c1f4.a677e",
+        "order": 4,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "759527b8.069e98",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "aa12c1f4.a677e",
+        "order": 8,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "faec6b23.f40078",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "aa12c1f4.a677e",
+        "order": 13,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "a866ec4e.9767c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "aa12c1f4.a677e",
+        "order": 16,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "5d12f9cd.9c4a88",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "a2b83ddb.6a2ee",
+        "order": 5,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "6fa0c1f6.e5f46",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Page1",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "1c848b66.40e7d5",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Page2",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "d6ad9f4b.3d2af",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "6fa0c1f6.e5f46",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "6fe91b4c.10eb64",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "1c848b66.40e7d5",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "788f9ef7.661f8",
+        "type": "ui_button",
+        "z": "4d24a982.7bf068",
+        "name": "",
+        "group": "d6ad9f4b.3d2af",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "button",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "x": 110.5,
+        "y": 155,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5cfe8f27.da613",
+        "type": "ui_switch",
+        "z": "b7ead9ac.8c3998",
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "group": "6fe91b4c.10eb64",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 234.5,
+        "y": 114,
+        "wires": [
+            []
+        ]
+    }
+]
